@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <tweet-tagger>
+        <rows-read>5</rows-read>
+        <api-url>http://localhost:2222/</api-url>
+        <!--<api-url>http://spotlight.dbpedia.org/</api-url>-->
+        <ref-url>http://localhost:8890/resource/</ref-url>
+        <confidence>0.2</confidence>
+        <support>20</support>
+        <num-of-clients>5</num-of-clients>
+        <client-num>4</client-num>
+    </tweet-tagger>
+</configuration>
